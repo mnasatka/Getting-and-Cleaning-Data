@@ -2,6 +2,8 @@
 #The data can be found here:
 #https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+library("plyr", lib.loc="C:/Program Files/R/R-3.1.0/library")
+
 #Read in train data
 x_train <- read.table("UCI HAR Dataset/train/X_train.txt")
 y_train <- read.table("UCI HAR Dataset/train/y_train.txt")

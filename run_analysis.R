@@ -41,4 +41,4 @@ colnames(merged_subject) <- c("subject")
 #5.Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 combined <- cbind(merged_data, merged_y, merged_subject)
 tidy <- ddply(combined, .(subject, activity), function(x) colMeans(x[,1:60]))
-write.table(tidy, file="TIDY_UCI_HAR.TXT", row.names=FALSE)
+write.table(tidy, file="TIDY_UCI_HAR.txt", row.names=FALSE, col.names=TRUE, sep="\t", quote=FALSE)

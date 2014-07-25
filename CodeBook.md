@@ -34,8 +34,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 * fBodyGyroMag
 * fBodyGyroJerkMag
 
-The tidy dataset extracts only the measurements on the mean and standard deviation for each measurement.
-The retained set of variables that were estimated from these signals are: 
+The tidy dataset extracts only the measurements on the mean and standard deviation for each measurement and stores them as factor variables that can be converted to numeric. The retained set of variables that were estimated from these signals are: 
 
 * mean(): Mean value
 * std(): Standard deviation

@@ -1,7 +1,7 @@
-==========================================================================
-Tidy Data for the UCI Human Activity Recognition Using Smartphones Dataset
+=============================================================================
+Tidy Dataset for the UCI Human Activity Recognition Using Smartphones Dataset
 Version 1.0
-==========================================================================
+=============================================================================
 Michael Nasatka
 
 The original work for UCI HAR is attributable to:
